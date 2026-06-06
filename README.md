@@ -1,8 +1,10 @@
-# Telecom Pricing Monitor - Perú 📶🇵🇪
+# Telecom Pricing Monitor WebScraping- Perú 
 
 Este proyecto es una herramienta automatizada de **Web Scraping y Visualización de Datos** diseñada para monitorear, extraer y comparar los planes y tarifas de los cuatro principales operadores de telecomunicaciones en el Perú: **Claro, Movistar, Entel y Bitel**.
 
-## 🚀 Características Principales
+![alt text](image.png)
+
+##  Características Principales
 
 1. **Web Scraping Robusto**:
    - Extracción de planes móviles (Postpago) y planes fijos (Hogar/Internet).
@@ -16,7 +18,7 @@ Este proyecto es una herramienta automatizada de **Web Scraping y Visualización
    - Gráficos interactivos generados con **Plotly** (Comparativas de Precio vs. Velocidad, Precio vs. GB, Boxplots).
    - KPIs automáticos y segmentación mediante filtros laterales por operador y tipo de servicio.
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```bash
 ├── app.py                   # Dashboard interactivo en Streamlit
@@ -29,7 +31,7 @@ Este proyecto es una herramienta automatizada de **Web Scraping y Visualización
 └── .gitignore               # Archivos ignorados por Git
 ```
 
-## 🛠️ Instalación y Requisitos
+##  Instalación y Requisitos
 
 Asegúrate de tener **Python 3.10+** instalado. Adicionalmente, el scraper de Movistar requiere tener **Google Chrome** instalado en el sistema.
 
@@ -45,7 +47,7 @@ Asegúrate de tener **Python 3.10+** instalado. Adicionalmente, el scraper de Mo
    pip install -r requirements.txt
    ```
 
-## 💻 Uso
+##  Uso
 
 ### 1. Ejecutar el Web Scraper
 
@@ -72,4 +74,4 @@ streamlit run app.py
 *Esto abrirá automáticamente una pestaña en tu navegador web en `http://localhost:8501`.*
 
 ---
-*Desarrollado con ❤️ para el análisis del mercado de telecomunicaciones.*
+*Desarrollado para el análisis del mercado de telecomunicaciones.*

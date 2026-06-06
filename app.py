@@ -7,7 +7,6 @@ from pathlib import Path
 # Configuración de la página
 st.set_page_config(
     page_title="Telecom Pricing Dashboard - Perú",
-    page_icon="📶",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -126,7 +125,7 @@ filtered_df = df[
 ]
 
 # --- MAIN CONTENT ---
-st.markdown('<p class="main-header">📊 Telecom Pricing Dashboard - Perú</p>', unsafe_allow_html=True)
+st.markdown('<p class="main-header"> Telecom Pricing Dashboard - Perú</p>', unsafe_allow_html=True)
 st.markdown("Comparativa de precios y planes de los principales operadores de telecomunicaciones en Perú.")
 
 # --- KPIs ---
